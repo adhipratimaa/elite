@@ -1,0 +1,579 @@
+
+/* contact page starts */
+
+
+.all-page-top-image {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.all-page-top-image::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.all-page-title {
+
+    position: relative;
+    z-index: 2;
+    margin-bottom: -50px;
+}
+
+.all-page-title h1 {
+
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.contact-title {
+
+    text-align: left;
+}
+
+.contact-title p {
+
+    max-width: inherit;
+}
+
+
+.contact-form-parent label {
+    
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+}
+
+.contact-form-parent input,
+.contact-form-parent textarea {
+
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+
+
+.contact-form-parent input:focus, .contact-form-parent textarea:focus {
+
+    outline: none;
+    -webkit-box-shadow: 0px 1px 15px 2px rgba(24, 73, 121, 0.18); 
+    box-shadow: 0px 1px 15px 2px rgba(24, 73, 121, 0.18);
+}
+
+.contact-form-parent textarea {
+
+    height: 200px;
+}
+
+.contact-form-parent button {
+
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    background: #184979;
+    color: #fff;
+    font-size: 14px;
+}
+
+.contact-media {
+
+    margin-bottom: 30px;
+}
+
+.contact-address h3,
+.contact-media h3 {
+
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contact-media ul li {
+
+    display: inline-block;
+    list-style: none;
+}
+
+.contact-media ul li a {
+
+    display: block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 5px;
+    background: #fff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    transition: 300ms ease all;
+    color: #184979;
+}
+
+.contact-media ul li a:hover {
+
+    background: #184979;
+    color: #fff;
+}
+
+.contact-address ul li {
+
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+    border-bottom: 1px solid #dadada;
+}
+
+.contact-address ul li,
+.contact-address ul li a {
+
+    font-size: 14px;
+
+}
+
+.contact-address ul li,
+.contact-address ul li a {
+
+    font-size: 14px;
+    color: #808080;
+}
+
+.contact-address ul li i {
+
+    margin-right: 10px;
+    color: #184979;
+}
+
+/* contact page ends */
+
+/* service page starts */
+
+.Learn-btn {
+
+    color: #184979;
+    font-size: 14px;
+    font-weight: 600;
+    border-bottom: 1px solid #184979;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.Learn-btn:hover {
+
+    text-decoration: none;
+}
+
+
+.service-sidebar p,
+.service-detail-content p {
+
+    margin-bottom: 15px;
+    color: #867f7f;
+}
+
+.service-detail-content img {
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.career-page-parent h1,
+.career-page-parent h2,
+.career-page-parent h3,
+.career-page-parent h4,
+.career-page-parent h5,
+.career-page-parent h6,
+.service-detail-content h1,
+.service-detail-content h2,
+.service-detail-content h3,
+.service-detail-content h4,
+.service-detail-content h5,
+.service-detail-content h6 {
+
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.service-detail-content ul {
+
+    margin-left: 30px;
+}
+
+.service-detail-content ul li {
+
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.service-sidebar {
+
+    padding: 15px;
+    border: 1px solid #d8d8d8;
+}
+
+.service-sidebar h3 {
+
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.service-sidebar a {
+
+    display: inline-block;
+    color: #fff;
+    background: #184979;
+    padding: 7px 20px;
+    font-size: 14px;
+    transition: 500ms ease all;
+}
+
+.career-form button:hover,
+.service-sidebar a:hover {
+
+    background: #870b0c;
+    color: #fff;
+    text-decoration: none;
+}
+
+.career-page-parent {
+
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.career-page-parent h3 {
+
+    margin-bottom: 15px;
+}
+
+.career-page-parent p {
+
+    margin-bottom: 15px;
+}
+
+.career-form {
+
+    margin-top: 30px;
+}
+
+.career-form label {
+
+    margin-bottom: 3px;
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: #797979;
+}
+
+.career-form input,
+.career-form textarea,
+.career-form button {
+
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+.career-form button {
+
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #fff;
+    background: #184979;
+    transition: 500ms ease all;
+    margin-bottom: 0;
+}
+
+.map iframe {
+
+    width: 100%;
+}
+
+.map h3 {
+
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* quote page starts */
+
+.quote-form button,
+.quote-form textarea,
+.quote-form input {
+
+    font-size: 13px;
+    padding: 7px 10px;
+    border:none;
+    outline: none;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+
+
+
+.quote-form input::placeholder {
+
+    color: #b8b8b8;
+}
+
+
+.quote-title h3 {
+
+    margin: 0;
+    font-size: 14px;
+}
+.quote-title {
+
+    margin-bottom: 15px;
+}
+
+.whole-checkbox-wrapp,
+.checkbox-title h3 {
+
+    margin-bottom: 15px;
+}
+
+.custom-checkbox {
+
+    margin-bottom: 5px;
+}
+
+
+.custom-radio label,
+.custom-checkbox label {
+
+    font-size: 13px;
+    color: #666666;
+}
+
+.submit-btn {
+
+    padding: 10px !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #184979;
+    color: #fff;
+}
+
+.quote-page {
+
+    position: relative;
+    overflow: hidden;
+}
+
+.quote-page::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #f2f2f2;
+}
+
+
+
+/* quote page starts */
+
+.quote-form button,
+.quote-form textarea,
+.quote-form input {
+
+    font-size: 13px;
+    padding: 7px 10px;
+    border:none;
+    outline: none;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+}
+
+
+
+.quote-form input::placeholder {
+
+    color: #b8b8b8;
+}
+
+
+.quote-title h3 {
+
+    margin: 0;
+    font-size: 14px;
+}
+.quote-title {
+
+    margin-bottom: 15px;
+}
+
+.whole-checkbox-wrapp,
+.checkbox-title h3 {
+
+    margin-bottom: 15px;
+}
+
+.custom-checkbox {
+
+    margin-bottom: 5px;
+}
+
+
+.custom-radio label,
+.custom-checkbox label {
+
+    font-size: 13px;
+    color: #666666;
+}
+
+.submit-btn {
+
+    padding: 10px !important;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background: #184979;
+    color: #fff;
+}
+
+.quote-page {
+
+    position: relative;
+    overflow: hidden;
+}
+
+.quote-page::before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: #f2f2f2;
+}
+
+
+
+/* blog page starts */
+
+.blog-cart {
+
+    padding: 15px;
+    background: #fff;
+    box-shadow: 0 4px 8px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.blog-cart a:hover {
+
+    text-decoration: none;
+}
+
+.blog-image img {
+
+    height: 220px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blog-content {
+
+    padding: 20px 0;
+}
+
+.blog-title {
+
+    margin-bottom: 15px;
+    display: block;
+}
+
+.blog-title h3 {
+
+    font-size: 18px;
+}
+
+.blog-content p {
+
+    margin-bottom: 20px;
+}
+
+.button-part {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 10px;
+    background: #ebf1f6;
+}
+
+.button-part a {
+
+    padding: 5px 15px;
+    font-size: 12px;
+    background: #dbe6f0;
+    font-weight: 400;
+    border: none;
+}
+
+.button-part p {
+
+    font-size: 12px;
+}
+
+.blog-detail-side h1,h2,h3,h4,h5,h6 {
+
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.blog-detail-side p {
+
+    margin-bottom: 10px;
+}
+
+
+.blog-sidebar .blog-image img {
+    height: 150px;
+}
+
+.blog-sidebar .blog-title h3 {
+
+    font-size: 16px;
+}
+
